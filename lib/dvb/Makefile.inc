@@ -14,6 +14,7 @@ dvb_libenigma_dvb_a_SOURCES = \
 	dvb/epgchanneldata.cpp \
 	dvb/epgtransponderdatareader.cpp \
 	dvb/esection.cpp \
+	dvb/hisi_decoder.cpp \  
 	dvb/fastscan.cpp \
 	dvb/fbc.cpp \
 	dvb/filepush.cpp \
@@ -58,6 +59,7 @@ dvbinclude_HEADERS = \
 	dvb/fastscan.h \
 	dvb/fbc.h \
 	dvb/filepush.h \
+	dvb/hisi_decoder.h \
 	dvb/frontend.h \
 	dvb/frontendparms.h \
 	dvb/idemux.h \
